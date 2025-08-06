@@ -4,15 +4,15 @@ import { motion, AnimatePresence } from 'framer-motion'
 const ImageStack = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "/src/assets/landscapes/img1.jpg",
-    "/src/assets/landscapes/img2.jpg",
-    "/src/assets/landscapes/img3.jpg",
-    "/src/assets/landscapes/img4.jpg",
-    "/src/assets/landscapes/img5.jpg",
-    "/src/assets/landscapes/img6.jpg",
-    "/src/assets/landscapes/img7.jpg",
-    "/src/assets/landscapes/img8.jpg",
-    "/src/assets/landscapes/img9.jpg"
+    "/Website-Portfolio/src/assets/landscapes/img1.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img2.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img3.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img4.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img5.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img6.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img7.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img8.jpg",
+    "/Website-Portfolio/src/assets/landscapes/img9.jpg"
   ];
 
   const handleHover = () => {
