@@ -1,4 +1,4 @@
-import resume from "/Website-Portfolio/src/assets/MuhammadTechResume.pdf";
+import resume from "/src/assets/MuhammadTechResume.pdf";
 
 const Footer = () => {
   const scrollToTop = () => {

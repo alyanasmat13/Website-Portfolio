@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
-import img1 from "/Website-Portfolio/src/assets/landscapes/img1.jpg";
-import img2 from "/Website-Portfolio/src/assets/landscapes/img2.jpg";
-import img3 from "/Website-Portfolio/src/assets/landscapes/img3.jpg";
-import img4 from "/Website-Portfolio/src/assets/landscapes/img4.jpg";
-import img5 from "/Website-Portfolio/src/assets/landscapes/img5.jpg";
-import img6 from "/Website-Portfolio/src/assets/landscapes/img6.jpg";
-import img7 from "/Website-Portfolio/src/assets/landscapes/img7.jpg";
-import img8 from "/Website-Portfolio/src/assets/landscapes/img8.jpg";
-import img9 from "/Website-Portfolio/src/assets/landscapes/img9.jpg";
+import img1 from "/src/assets/landscapes/img1.jpg";
+import img2 from "/src/assets/landscapes/img2.jpg";
+import img3 from "/src/assets/landscapes/img3.jpg";
+import img4 from "/src/assets/landscapes/img4.jpg";
+import img5 from "/src/assets/landscapes/img5.jpg";
+import img6 from "/src/assets/landscapes/img6.jpg";
+import img7 from "/src/assets/landscapes/img7.jpg";
+import img8 from "/src/assets/landscapes/img8.jpg";
+import img9 from "/src/assets/landscapes/img9.jpg";
 
 const ImageStack = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

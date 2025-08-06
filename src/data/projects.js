@@ -1,6 +1,6 @@
-import portfolioImg from "/Website-Portfolio/src/assets/portfolio.png";
-import cardiomedicalImg from "/Website-Portfolio/src/assets/cardiomedical.webp";
-import aichatbotImg from "/Website-Portfolio/src/assets/aichatbot.jpg";
+import portfolioImg from "/src/assets/portfolio.png";
+import cardiomedicalImg from "/src/assets/cardiomedical.webp";
+import aichatbotImg from "/src/assets/aichatbot.jpg";
 
 export const projects = [
   {
