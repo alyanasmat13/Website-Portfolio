@@ -8,7 +8,7 @@ export const projects = [
     date: "August 2025",
     description: "Designed and developed a personal portfolio website to showcase my projects and skills using modern web technologies.",
     technologies: ["React.js", "HTML", "CSS", "JavaScript", "Cloudflare"],
-    source: "https://github.com/alyanasmat13/Portfolio",
+    source: "https://github.com/alyanasmat13/Website-Portfolio",
     image: portfolioImg
   },
   {
