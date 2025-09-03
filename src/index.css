@@ -330,11 +330,12 @@ ul {
 }
 
 .image-stack {
-  position: absolute;
+  position: fixed;
   top: 5rem;
-  right: 40rem;
-  width: 185px;
-  height: 185px;
+  right: 25%;
+  width: clamp(160px, 15vw, 185px);
+  height: auto;
+  aspect-ratio: 1;
 }
 
 .stack-image {
