@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 import img1 from "/src/assets/landscapes/img1.jpg";
@@ -11,22 +11,31 @@ import img7 from "/src/assets/landscapes/img7.jpg";
 import img8 from "/src/assets/landscapes/img8.jpg";
 import img9 from "/src/assets/landscapes/img9.jpg";
 
+const images = [
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9
+];
+
 const ImageStack = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9
-  ];
+  const [loadedImages, setLoadedImages] = useState([0, 1]);
 
   const handleHover = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length);
+    const nextIndex = (currentIndex + 1) % images.length;
+    setCurrentIndex(nextIndex);
+    
+    // Preload next image
+    const nextToLoad = (nextIndex + 1) % images.length;
+    if (!loadedImages.includes(nextToLoad)) {
+      setLoadedImages(prev => [...prev, nextToLoad]);
+    }
   };
 
   return (
