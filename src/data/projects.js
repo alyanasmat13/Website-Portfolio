@@ -1,6 +1,7 @@
 import portfolioImg from "/src/assets/portfolio.png";
 import cardiomedicalImg from "/src/assets/cardiomedical.webp";
 import aichatbotImg from "/src/assets/aichatbot.jpg";
+import guesspkmnImg from "/src/assets/guesspkmn.png";
 
 export const projects = [
   {
@@ -20,19 +21,19 @@ export const projects = [
     image: cardiomedicalImg
   },
   {
+    title: "GuessPKMN",
+    date: "September 2025",
+    description: "Built interactive web application that challenges users to identify Pokemon through gamified quiz mechanics with point-based scoring system and randomized content generation.",
+    technologies: ["React.js", "HTML", "Tailwind CSS", "TypeScript", "PokéAPI"],
+    source: "https://github.com/alyanasmat13/GuessPKMN",
+    image: guesspkmnImg
+  },
+  {
     title: "AI Chatbot",
     date: "August 2024",
     description: "Built an intelligent chatbot featuring dynamic user interactions and real-time responses through OpenAI integration.",
     technologies: ["JavaScript", "Next.js", "Postman", "OpenAI"],
     source: "https://github.com/alyanasmat13/AI-Chatbot",
     image: aichatbotImg
-  },
-  {
-    title: "Project Four",
-    date: "TBD",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    source: "https://github.com/alyanasmat13",
-    image: ""
   },
 ]
