@@ -1,7 +1,7 @@
 import portfolioImg from "/src/assets/portfolio.png";
 import cardiomedicalImg from "/src/assets/cardiomedical.webp";
-import aichatbotImg from "/src/assets/aichatbot.jpg";
 import guesspkmnImg from "/src/assets/guesspkmn.png";
+import codepieceImg from "/src/assets/codepiece.png";
 
 export const projects = [
   {
@@ -14,9 +14,9 @@ export const projects = [
   },
   {
     title: "Cardio Medical",
-    date: "June 2025",
+    date: "May 2025",
     description: "Developed a responsive medical organization website focusing on design and accessibility while collaborating with a large team.",
-    technologies: ["HTML", "CSS", "JavaScript", "Vercel"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     source: "https://github.com/alyanasmat13/CardioMedical",
     image: cardiomedicalImg
   },
@@ -24,16 +24,19 @@ export const projects = [
     title: "GuessPKMN",
     date: "September 2025",
     description: "Built interactive web application that challenges users to identify Pokemon through gamified quiz mechanics with point-based scoring system and randomized content generation.",
-    technologies: ["React.js", "HTML", "Tailwind CSS", "TypeScript", "PokéAPI"],
+    technologies: ["React", "HTML", "Tailwind CSS", "TypeScript", "PokéAPI", "Firebase", "Vercel", "Render"],
     source: "https://github.com/alyanasmat13/GuessPKMN",
-    image: guesspkmnImg
+    image: guesspkmnImg,
+    link: "https://guesspkmn.vercel.app/"
   },
   {
-    title: "AI Chatbot",
-    date: "August 2024",
-    description: "Built an intelligent chatbot featuring dynamic user interactions and real-time responses through OpenAI integration.",
-    technologies: ["JavaScript", "Next.js", "Postman", "OpenAI"],
-    source: "https://github.com/alyanasmat13/AI-Chatbot",
-    image: aichatbotImg
-  },
+    title: "CodePiece",
+    date: "May 2026",
+    description: "Built a real-time multiplayer word game supporting concurrent players across separate devices, engineered around a server-authoritative architecture to act as the single source of truth for game state.",
+    technologies: ["React", "Node/Express", "Tailwind CSS", "TypeScript", "Socket.IO", "Render"],
+    source: "https://github.com/alyanasmat13/code-piece",
+    image: codepieceImg,
+    link: "https://code-piece.onrender.com/"
+  }
+
 ]

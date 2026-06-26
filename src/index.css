@@ -176,6 +176,13 @@ ul {
   border-radius: 10px;
   overflow: hidden;
   opacity: 0;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card--clickable {
+  cursor: pointer;
 }
 
 .slide-from-left {
@@ -189,12 +196,18 @@ ul {
 .project-image {
   height: 200px;
   overflow: hidden;
+  position: relative;
 }
 
 .project-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card--clickable:hover .project-image img {
+  transform: scale(1.04);
 }
 
 .project-image:empty,
@@ -209,6 +222,8 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .project-info {
   padding-left: 0.5rem;
@@ -235,6 +250,13 @@ ul {
   opacity: 1;
 }
 
+.project-buttons {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
 .source-button {
   display: inline-flex;
   align-items: center;
@@ -248,13 +270,36 @@ ul {
   background-repeat: no-repeat;
   background-position: 0.7rem center;
   background-size: 1.2rem;
-  margin-top: 1rem;
   transition: background-color 0.2s;
   font-weight: bold;
 }
 
 .source-button:hover {
   background-color: rgba(0, 0, 0, 0.726);
+}
+
+.visit-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: white;
+  background-color: rgb(50, 3, 80);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.visit-button::after {
+  content: '↗';
+  font-size: 0.85rem;
+}
+
+.visit-button:hover {
+  background-color: rgb(110, 0, 180);
+  box-shadow: 0 0 10px rgba(140, 0, 210, 0.5);
 }
 
 .source-button svg {
@@ -308,7 +353,7 @@ ul {
 }
 
 .contact-description {
-  color: #ccc;
+  color: #ffffff;
   font-size: 1.1rem;
   max-width: 500px;
   text-align: center;

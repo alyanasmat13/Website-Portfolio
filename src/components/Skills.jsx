@@ -1,5 +1,5 @@
 const Skills = () => {
-  const skills = ['Python', 'C++', 'Java', 'JavaScript', 'HTML', 'CSS', 'React.js', 'Next.js', 'Node.js', 'Tailwind', 'Bootstrap', 'Supabase', 'GitHub', 'Git', 'SVN', 'Postman', 'Docker', 'Cloudflare', 'VSCode']
+  const skills = ['Python', 'C++', 'Java', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Tailwind', 'Bootstrap', 'Supabase', 'Firebase', 'Socket.IO', 'Render', 'Vercel', 'GitHub', 'Git', 'SVN', 'Postman', 'Docker', 'Cloudflare']
   
   return (
     <section className="skills">
