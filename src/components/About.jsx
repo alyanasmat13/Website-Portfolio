@@ -10,7 +10,7 @@ const About = () => {
         projects using modern technologies and best practices.
       </p>
       <p>
-        With <strong>2 years of experience</strong> in software development, I have
+        With <strong>2 years of experience</strong> in developing software, I have
         developed expertise in <strong>React</strong>, <strong>Node.js</strong>, and
         <strong> other services</strong>. I am committed to writing clean, maintainable
         code and constantly learning new technologies to stay at the forefront of

@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header>
       <h1>{displayText}<span className="header-end-bar">|</span></h1>
-      <p>I'm a Senior majoring in Computer Science @ the University of Houston. I'm an aspiring Software Engineer looking for internship opportunities.</p>
+      <p>I graduated from the University of Houston in May 2026 with a Bachelor of Science in Computer Science. I'm an aspiring Software Engineer looking for a full-time positions.</p>
     </header>
   );
 };
