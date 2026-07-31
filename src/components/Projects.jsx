@@ -6,8 +6,16 @@ const ProjectCard = ({ title, date, description, image, technologies, source, li
   const cardContent = (
     <>
       <div className={`project-image ${!image ? 'placeholder' : ''}`}>
-        {image && <img src={image} alt={title} />}
-
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            width="800"
+            height="382"
+            loading="lazy"
+            decoding="async"
+          />
+        )}
       </div>
       <div className="project-info">
         <h3>{title}</h3>
