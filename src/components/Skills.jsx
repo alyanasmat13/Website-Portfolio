@@ -1,6 +1,6 @@
 const Skills = () => {
-  const skills = ['Python', 'C++', 'Java', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Tailwind', 'Bootstrap', 'Supabase', 'Firebase', 'Socket.IO', 'Render', 'Vercel', 'GitHub', 'Git', 'SVN', 'Postman', 'Docker', 'Cloudflare']
-  
+  const skills = ['Python', 'C++', 'Java', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Tailwind', 'Bootstrap', 'Supabase', 'Pandas', 'NumPy', 'Uvicorn', 'FastAPI', 'Firebase', 'Socket.IO', 'Render', 'Vercel', 'GitHub', 'Git', 'SVN', 'Postman', 'Docker', 'Cloudflare']
+
   return (
     <section className="skills">
       <h2 className="skills-title">Skills</h2>

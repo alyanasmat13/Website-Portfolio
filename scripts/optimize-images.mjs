@@ -34,7 +34,7 @@ const jobs = [
     label: 'project images',
     from: 'src/assets',
     to: OUT_ROOT,
-    only: ['portfolio.png', 'guesspkmn.png', 'codepiece.png', 'cardiomedical.webp'],
+    only: ['portfolio.png', 'guesspkmn.png', 'codepiece.png', 'pkmn-class.png'],
     // Project cards are ~360px wide at the 800px container cap; 800px covers 2x.
     // No height: keep the source aspect ratio so object-fit crops as it does now.
     width: 800,
